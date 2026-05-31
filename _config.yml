@@ -1,0 +1,14 @@
+title: "Lidanyi"
+description: "Academic website for Lidanyi"
+url: "https://danyili525.github.io"
+baseurl: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+header_pages:
+  - publications.md
+  - projects.md
+  - teaching.md
+  - cv.md
+  - contact.md
