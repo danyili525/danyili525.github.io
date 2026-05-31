@@ -9,5 +9,4 @@
   <li><a href="#">ORCID</a></li>
   <li><a href="#">LinkedIn</a></li>
   <li><a href="https://github.com/danyili525">GitHub</a></li>
-  <li><a href="#">Department Profile</a></li>
 </ul>
