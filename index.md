@@ -1,13 +1,13 @@
-<h1 class="profile-card__name">Lidanyi</h1>
+<h1 class="profile-card__name">Danyi Li</h1>
 <p class="profile-card__title">PhD Candidate in Preventive Medicine (Health Behavior Research)</p>
 <p class="profile-card__org">Keck School of Medicine<br>University of Southern California</p>
 
 <p><a href="mailto:your-email@usc.edu">danyili@usc.edu</a></p>
 
 <ul class="profile-card__links">
-  <li><a href="#">Google Scholar</a></li>
-  <li><a href="#">ORCID</a></li>
-  <li><a href="#">LinkedIn</a></li>
+  <li><a href="https://scholar.google.com/citations?user=KsNRj8sAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+  <li><a href="https://orcid.org/my-orcid?orcid=0000-0003-1138-9181">ORCID</a></li>
+  <li><a href="https://www.linkedin.com/in/danyi-li-4a87161b2/">LinkedIn</a></li>
   <li><a href="https://github.com/danyili525">GitHub</a></li>
 </ul>
 
