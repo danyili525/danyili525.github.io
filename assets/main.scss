@@ -16,6 +16,7 @@
 body {
   background: var(--site-bg);
   color: var(--site-ink);
+  font-size: 18px;
 }
 
 .site-header .wrapper {
@@ -36,6 +37,7 @@ body {
   float: none;
   font-weight: 700;
   letter-spacing: -0.02em;
+  font-size: 1.8rem;
 }
 
 .site-nav {
@@ -46,6 +48,7 @@ body {
 .site-nav .page-link {
   color: var(--site-ink) !important;
   font-weight: 500;
+  font-size: 1.05rem;
 }
 
 .site-nav .page-link:not(:last-child) {
@@ -94,7 +97,7 @@ body {
 
 .profile-card__name {
   margin: 18px 0 6px;
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 1.05;
 }
 
@@ -102,8 +105,8 @@ body {
 .profile-card__org {
   color: var(--site-muted);
   margin-bottom: 10px;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .profile-card__links {
@@ -120,6 +123,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  font-size: 1.05rem;
 }
 
 .profile-link__img-icon {
@@ -141,7 +145,7 @@ body {
 }
 
 .about-panel h2 {
-  font-size: 4.1rem;
+  font-size: 4.5rem;
   line-height: 0.95;
   margin-bottom: 10px;
   font-weight: 700;
@@ -149,15 +153,15 @@ body {
 }
 
 .about-panel .lead {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   color: #3d3d3d;
   max-width: 720px;
   margin-bottom: 18px;
 }
 
 .about-panel p {
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1.15rem;
+  line-height: 1.8;
   max-width: 760px;
 }
 
@@ -185,7 +189,7 @@ strong {
   align-items: center;
   gap: 14px;
   color: var(--site-muted);
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .footer-share__label {
