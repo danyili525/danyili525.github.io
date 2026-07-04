@@ -1,7 +1,6 @@
-layout: academic-page
-title: Publications
-permalink: /publications/
-panel_class: publications-panel
+---
+layout: default
+title: Home
 ---
 
 <header class="page-heading">
