@@ -122,16 +122,18 @@ body {
   gap: 10px;
 }
 
-.profile-link__icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 18px;
-  height: 20px;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #8a8a8a;
-  background: transparent;
+.profile-link__img-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.profile-link__img-icon--scholar {
+  width: 18px;
+  height: 18px;
 }
 
 .about-panel {
