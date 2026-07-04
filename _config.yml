@@ -7,9 +7,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 header_pages:
-  - index.html
   - publications.html
-  - projects.html
-  - teaching.html
-  - cv.html
-  - life-out-of-academia.html
+  - projects.md
+  - teaching.md
+  - cv.md
+  - life-out-of-academia.md
