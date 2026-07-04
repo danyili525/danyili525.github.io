@@ -8,7 +8,6 @@
   <li><a href="https://scholar.google.com/citations?user=KsNRj8sAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
   <li><a href="https://orcid.org/0000-0003-1138-9181">ORCID</a></li>
   <li><a href="https://www.linkedin.com/in/danyi-li-4a87161b2/">LinkedIn</a></li>
-  <li><a href="https://github.com/danyili525">GitHub</a></li>
 </ul>
 
 <p>
