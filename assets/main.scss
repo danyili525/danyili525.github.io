@@ -161,46 +161,4 @@ body {
 
 .about-panel p {
   font-size: 1.15rem;
-  line-height: 1.8;
-  max-width: 760px;
-}
-
-a {
-  color: var(--site-accent-dark);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--site-accent);
-  text-decoration: underline;
-}
-
-strong {
-  font-weight: 700;
-}
-
-.site-footer {
-  border-top: 0;
-  padding: 24px 0 40px;
-}
-
-.footer-share {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: var(--site-muted);
-  font-size: 1.05rem;
-}
-
-.footer-share__label {
-  margin-right: 2px;
-}
-
-.footer-share__link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 18px;
-  font-weight: 700;
-  color: var(--site-accent-dark);
-}
+  line-height: 1.
