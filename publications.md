@@ -46,102 +46,73 @@ permalink: /publications/
   <article class="about-panel">
     <h2>Publications</h2>
     <p class="lead">
-      This page uses the same layout as the home page and can be expanded one section at a time. Replace the sample entries below with your peer-reviewed articles, working papers, reports, posters, and links to PDFs or code.
+      This section presents my research publications, linked to their full texts and, when available, accompanying posters, data, or code. Additional information can be accessed by clicking on each publication.
     </p>
 
-    <section class="publication-section">
-      <div class="section-heading">
-        <h3>Peer-Reviewed Publications</h3>
-        <p>Add one full publication block for each published article.</p>
-      </div>
+    <div class="publication-list">
+      <!-- Name image files in order as /assets/img/PubPic1.jpg, /assets/img/PubPic2.jpg, /assets/img/PubPic3.jpg, and so on. -->
+      <!-- Duplicate one publication-item block for each new publication and keep entries in reverse chronological order. -->
 
-      <!-- Duplicate this block for each additional peer-reviewed publication. -->
       <article class="publication-item">
-        <div class="publication-item__thumb" aria-hidden="true">
-          <span class="publication-item__year">2026</span>
-          <span class="publication-item__type">Article</span>
-        </div>
+        <figure class="publication-item__figure">
+          <img class="publication-item__image" src="/assets/img/PubPic1.jpg" alt="Thumbnail image for publication 1">
+        </figure>
         <div class="publication-item__content">
-          <h4><a href="#">Title of your first publication goes here</a></h4>
+          <h3><a href="#">Title of your most recent publication goes here</a></h3>
           <p class="publication-item__authors"><strong>Danyi Li</strong>, Coauthor Name, Coauthor Name</p>
-          <p class="publication-item__meta"><em>Journal Name</em>, volume(issue), page range.</p>
-          <p class="publication-item__summary">
-            Add one or two sentences describing the question, methods, dataset, or main contribution of the article.
-          </p>
+          <p class="publication-item__meta"><em>Journal Name</em>, vol. xx, 2026, pp. xx-xx</p>
           <div class="publication-item__links">
-            <a class="publication-pill" href="#">PDF</a>
-            <a class="publication-pill" href="#">DOI</a>
+            <a class="publication-pill" href="#">View PDF</a>
+            <a class="publication-pill" href="#">Data</a>
             <a class="publication-pill" href="#">Code</a>
           </div>
         </div>
       </article>
 
       <article class="publication-item">
-        <div class="publication-item__thumb" aria-hidden="true">
-          <span class="publication-item__year">2025</span>
-          <span class="publication-item__type">Article</span>
-        </div>
+        <figure class="publication-item__figure">
+          <img class="publication-item__image" src="/assets/img/PubPic2.jpg" alt="Thumbnail image for publication 2">
+        </figure>
         <div class="publication-item__content">
-          <h4><a href="#">Title of your second publication goes here</a></h4>
-          <p class="publication-item__authors"><strong>Danyi Li</strong>, Coauthor Name</p>
-          <p class="publication-item__meta"><em>Journal Name</em>, volume(issue), page range.</p>
-          <p class="publication-item__summary">
-            Use this space for a brief plain-language summary that helps visitors understand your work quickly.
-          </p>
+          <h3><a href="#">Title of your second publication goes here</a></h3>
+          <p class="publication-item__authors"><strong>Danyi Li</strong>, Coauthor Name, Coauthor Name</p>
+          <p class="publication-item__meta"><em>Journal Name</em>, vol. xx, 2025, pp. xx-xx</p>
           <div class="publication-item__links">
-            <a class="publication-pill" href="#">PDF</a>
-            <a class="publication-pill" href="#">DOI</a>
+            <a class="publication-pill" href="#">View PDF</a>
+            <a class="publication-pill" href="#">Data</a>
           </div>
         </div>
       </article>
-    </section>
 
-    <section class="publication-section">
-      <div class="section-heading">
-        <h3>Working Papers and Preprints</h3>
-        <p>Use the compact blocks below for current manuscripts that are not yet in final journal form.</p>
-      </div>
-
-      <article class="publication-item publication-item--compact">
+      <article class="publication-item">
+        <figure class="publication-item__figure">
+          <img class="publication-item__image" src="/assets/img/PubPic3.jpg" alt="Thumbnail image for publication 3">
+        </figure>
         <div class="publication-item__content">
-          <h4><a href="#">Title of your working paper goes here</a></h4>
+          <h3><a href="#">Title of your third publication goes here</a></h3>
           <p class="publication-item__authors"><strong>Danyi Li</strong>, Coauthor Name</p>
-          <p class="publication-item__meta">Working paper or preprint.</p>
-          <p class="publication-item__summary">
-            Add one sentence on the central question and one sentence on the current status, such as under review or in revision.
-          </p>
+          <p class="publication-item__meta"><em>Journal Name</em>, vol. xx, 2025, pp. xx-xx</p>
           <div class="publication-item__links">
-            <a class="publication-pill" href="#">Abstract</a>
-            <a class="publication-pill" href="#">Draft PDF</a>
+            <a class="publication-pill" href="#">View PDF</a>
+            <a class="publication-pill" href="#">Poster</a>
           </div>
         </div>
       </article>
-    </section>
 
-    <section class="publication-section">
-      <div class="section-heading">
-        <h3>Work in Progress</h3>
-        <p>These short entries are useful for showing your broader research agenda without overloading the page.</p>
-      </div>
-
-      <article class="publication-item publication-item--compact">
+      <article class="publication-item">
+        <figure class="publication-item__figure">
+          <img class="publication-item__image" src="/assets/img/PubPic4.jpg" alt="Thumbnail image for publication 4">
+        </figure>
         <div class="publication-item__content">
-          <h4>Project title or manuscript title</h4>
-          <p class="publication-item__summary">
-            One sentence on the research question, methods, or stage of the project.
-          </p>
+          <h3><a href="#">Title of your fourth publication goes here</a></h3>
+          <p class="publication-item__authors"><strong>Danyi Li</strong>, Coauthor Name, Coauthor Name</p>
+          <p class="publication-item__meta"><em>Journal Name</em>, vol. xx, 2024, pp. xx-xx</p>
+          <div class="publication-item__links">
+            <a class="publication-pill" href="#">View PDF</a>
+            <a class="publication-pill" href="#">Data</a>
+          </div>
         </div>
       </article>
-
-      <article class="publication-item publication-item--compact">
-        <div class="publication-item__content">
-          <h4>Another ongoing project title</h4>
-          <p class="publication-item__summary">
-            For example: "Evaluating youth behavioral outcomes after a policy change using a quasi-experimental design."
-          </p>
-        </div>
-      </article>
-    </section>
+    </div>
   </article>
 </section>
-
