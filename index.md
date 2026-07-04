@@ -7,7 +7,7 @@ title: Home
 
 <section class="home-grid">
   <aside class="profile-card">
-    <img class="profile-card__image" src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Portrait of Danyi Li">
+    <img class="profile-card__image" src="/assets/img/headshot.jpg" alt="Portrait of Danyi Li">
 
     <h1 class="profile-card__name">Danyi Li</h1>
     <p class="profile-card__title">PhD Candidate in Preventive Medicine (Health Behavior Research)</p>
