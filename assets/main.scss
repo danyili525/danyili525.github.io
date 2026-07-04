@@ -165,6 +165,124 @@ body {
   max-width: 760px;
 }
 
+/* Publications page only */
+.publications-panel {
+  padding-top: 30px;
+}
+
+.publications-panel h2 {
+  font-size: 4.5rem;
+  line-height: 0.95;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.publications-panel .lead {
+  font-size: 1.35rem;
+  color: #3d3d3d;
+  max-width: 900px;
+  margin-bottom: 28px;
+}
+
+.publication-section {
+  margin-bottom: 42px;
+}
+
+.publication-section h3 {
+  margin: 0 0 20px;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 34px;
+}
+
+.publication-item--compact {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.publication-item__thumb {
+  width: 220px;
+  height: 150px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.publication-item__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.publication-item__thumb--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--site-muted);
+  background: linear-gradient(135deg, #efe7df, #d9ccc0);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.publication-item__content h4 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.publication-item__content h4 a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.08em;
+}
+
+.publication-item__authors,
+.publication-item__meta {
+  margin: 0 0 8px;
+  max-width: 860px;
+}
+
+.publication-item__authors {
+  font-size: 1.18rem;
+}
+
+.publication-item__meta {
+  color: var(--site-muted);
+  font-size: 1.18rem;
+  line-height: 1.7;
+}
+
+.publication-item__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.publication-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 16px;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--site-ink);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.publication-pill:hover {
+  background: #f7f3ef;
+  text-decoration: none;
+}
+
 a {
   color: var(--site-accent-dark);
   text-decoration: none;
@@ -203,4 +321,20 @@ strong {
   min-width: 18px;
   font-weight: 700;
   color: var(--site-accent-dark);
+}
+
+@media screen and (max-width: 900px) {
+  .publication-item {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .publication-item__thumb {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .publications-panel h2 {
+    font-size: 3.2rem;
+  }
 }
