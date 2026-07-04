@@ -1,0 +1,69 @@
+{% assign current_path = page.url | default: '/' %}
+{% assign share_url = site.url | append: current_path %}
+
+<footer class="site-footer custom-footer h-card">
+  <div class="wrapper">
+    <div class="footer-share">
+      <span class="footer-share__label">Share</span>
+      <a class="footer-share__link" href="https://x.com/intent/tweet?url={{ share_url | uri_escape }}&text={{ site.title | uri_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Share on X">X</a>
+      <a class="footer-share__link" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | uri_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">in</a>
+      <a class="footer-share__link" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url | uri_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">f</a>
+      <a class="footer-share__link" href="mailto:?subject={{ site.title | uri_escape }}&body={{ share_url | uri_escape }}" aria-label="Share by email">@</a>
+    </div>
+  </div>
+</footer>
+
+<button class="translate-toggle" type="button" aria-expanded="false" aria-controls="translate-panel" onclick="toggleTranslatePanel()">
+  Translate
+</button>
+
+<div id="translate-panel" class="translate-panel" hidden>
+  <label class="translate-panel__label" for="translate-language">Translate page</label>
+  <div id="google_translate_element"></div>
+  <select id="translate-language" class="translate-panel__select" onchange="changePageLanguage(this.value)">
+    <option value="">Select language</option>
+    <option value="es">Spanish</option>
+    <option value="zh-CN">Chinese (Simplified)</option>
+    <option value="fr">French</option>
+    <option value="it">Italian</option>
+    <option value="ko">Korean</option>
+  </select>
+  <p class="translate-panel__note">Automatic translation is powered by Google Translate.</p>
+</div>
+
+<script>
+  function toggleTranslatePanel() {
+    var panel = document.getElementById("translate-panel");
+    var button = document.querySelector(".translate-toggle");
+    var isHidden = panel.hasAttribute("hidden");
+
+    if (isHidden) {
+      panel.removeAttribute("hidden");
+      button.setAttribute("aria-expanded", "true");
+    } else {
+      panel.setAttribute("hidden", "");
+      button.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false
+      },
+      "google_translate_element"
+    );
+  }
+
+  function changePageLanguage(lang) {
+    if (!lang) return;
+
+    var combo = document.querySelector(".goog-te-combo");
+    if (!combo) return;
+
+    combo.value = lang;
+    combo.dispatchEvent(new Event("change"));
+  }
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
